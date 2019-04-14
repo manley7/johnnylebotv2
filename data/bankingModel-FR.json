@@ -1,0 +1,5101 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "entities": [
+          {
+            "end": 41,
+            "entity": "montant",
+            "start": 37,
+            "value": "1674"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pouvez-vous effectuer un transfer de 1674?"
+      },
+      {
+        "entities": [
+          {
+            "end": 74,
+            "entity": "montant",
+            "start": 70,
+            "value": "7553"
+          },
+          {
+            "end": 78,
+            "entity": "devise",
+            "start": 75,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "pardon Serait-il possible de effectuer un transfer s'il vous plait de 7553 eur?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "Serait-il possible de effectuer un virement s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 47,
+            "entity": "montant",
+            "start": 43,
+            "value": "7310"
+          },
+          {
+            "end": 50,
+            "entity": "devise",
+            "start": 47,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Serait il possible de faire un transfer de 7310EUR s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 43,
+            "entity": "montant",
+            "start": 37,
+            "value": "468.66"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "je voudrais effectuer un virement de 468.66 s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 63,
+            "entity": "montant",
+            "start": 59,
+            "value": "9438"
+          },
+          {
+            "end": 67,
+            "entity": "devise",
+            "start": 64,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Serait-il possible de faire un virement s'il vous plait de 9438 eur?"
+      },
+      {
+        "entities": [
+          {
+            "end": 56,
+            "entity": "montant",
+            "start": 51,
+            "value": "61.68"
+          },
+          {
+            "end": 60,
+            "entity": "devise",
+            "start": 57,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Veuillez m'excuser j'aimerais faire un paiement de 61.68 eur s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 59,
+            "entity": "montant",
+            "start": 52,
+            "value": "5832,51"
+          },
+          {
+            "end": 65,
+            "entity": "devise",
+            "start": 60,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Veuillez m'excuser Pouvez-vous faire un paiement de 5832,51 euros s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 52,
+            "entity": "montant",
+            "start": 46,
+            "value": "667.68"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Serait-il possible d'effectuer un transfer de 667.68 s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "entity": "montant",
+            "start": 37,
+            "value": "638"
+          },
+          {
+            "end": 43,
+            "entity": "devise",
+            "start": 40,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "je voudrais effectuer un paiement de 638eur s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 61,
+            "entity": "montant",
+            "start": 59,
+            "value": "23"
+          },
+          {
+            "end": 66,
+            "entity": "devise",
+            "start": 61,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Est ce possible d'effectuer un transfer s'il vous plait de 23euros?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "Pourriez vous effectuer un transfer s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 62,
+            "entity": "montant",
+            "start": 55,
+            "value": "2179,69"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Excusez moi Serait il possible de faire un virement de 2179,69?"
+      },
+      {
+        "entities": [
+          {
+            "end": 50,
+            "entity": "montant",
+            "start": 43,
+            "value": "9319,16"
+          },
+          {
+            "end": 54,
+            "entity": "devise",
+            "start": 51,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Est-ce possible d'effectuer un virement de 9319,16 EUR?"
+      },
+      {
+        "entities": [
+          {
+            "end": 39,
+            "entity": "montant",
+            "start": 35,
+            "value": "2446"
+          },
+          {
+            "end": 44,
+            "entity": "devise",
+            "start": 39,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "pourriez-vous faire un virement de 2446euros s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 58,
+            "entity": "montant",
+            "start": 53,
+            "value": "94988"
+          },
+          {
+            "end": 64,
+            "entity": "devise",
+            "start": 59,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "je souhaiterais faire un virement s'il vous plait de 94988 euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 41,
+            "entity": "montant",
+            "start": 35,
+            "value": "062,76"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "pourriez-vous faire un transfer de 062,76 s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "je voudrais faire un virement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 50,
+            "entity": "montant",
+            "start": 47,
+            "value": "432"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "hello je souhaiterais effectuer un virement de 432 s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 48,
+            "entity": "montant",
+            "start": 40,
+            "value": "73290.69"
+          },
+          {
+            "end": 51,
+            "entity": "devise",
+            "start": 48,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Est-ce possible de faire un virement de 73290.69eur s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "Pouvez-vous effectuer un paiement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 58,
+            "entity": "montant",
+            "start": 50,
+            "value": "35191.60"
+          },
+          {
+            "end": 61,
+            "entity": "devise",
+            "start": 58,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "madame, monsieur Pouvez-vous faire un virement de 35191.60EUR?"
+      },
+      {
+        "entities": [
+          {
+            "end": 50,
+            "entity": "montant",
+            "start": 46,
+            "value": "1118"
+          },
+          {
+            "end": 55,
+            "entity": "devise",
+            "start": 51,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "pardon pourriez-vous effectuer un transfer de 1118 euro?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "Pardon j'aimerais faire un transfer?"
+      },
+      {
+        "entities": [
+          {
+            "end": 77,
+            "entity": "montant",
+            "start": 74,
+            "value": "936"
+          },
+          {
+            "end": 16,
+            "entity": "devise",
+            "start": 13,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "madame, monsieur je souhaiterais effectuer un virement s'il vous plait de 936eur?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "madame, monsieur je voudrais faire un virement s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "entity": "montant",
+            "start": 33,
+            "value": "951"
+          },
+          {
+            "end": 42,
+            "entity": "devise",
+            "start": 37,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pouvez-vous faire un transfer de 951 euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 44,
+            "entity": "montant",
+            "start": 39,
+            "value": "14.97"
+          },
+          {
+            "end": 50,
+            "entity": "devise",
+            "start": 45,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pourriez vous effectuer un paiement de 14.97 euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 67,
+            "entity": "montant",
+            "start": 62,
+            "value": "08.96"
+          },
+          {
+            "end": 71,
+            "entity": "devise",
+            "start": 68,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Veuillez m'excuser Serait-il possible de faire un virement de 08.96 EUR?"
+      },
+      {
+        "entities": [
+          {
+            "end": 53,
+            "entity": "montant",
+            "start": 47,
+            "value": "458,81"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Bonjour pourriez-vous effectuer un transfer de 458,81?"
+      },
+      {
+        "entities": [
+          {
+            "end": 38,
+            "entity": "montant",
+            "start": 33,
+            "value": "26820"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pouvez vous faire un transfer de 26820?"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "entity": "montant",
+            "start": 41,
+            "value": "3893"
+          },
+          {
+            "end": 48,
+            "entity": "devise",
+            "start": 45,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "je souhaiterais effectuer un transfer de 3893eur s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "Serait-il possible de faire un transfer s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 55,
+            "entity": "montant",
+            "start": 52,
+            "value": "546"
+          },
+          {
+            "end": 16,
+            "entity": "devise",
+            "start": 13,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "madame, monsieur Pourriez vous faire un paiement de 546eur?"
+      },
+      {
+        "entities": [
+          {
+            "end": 57,
+            "entity": "montant",
+            "start": 50,
+            "value": "9400,33"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "madame, monsieur Pouvez-vous faire un transfer de 9400,33?"
+      },
+      {
+        "entities": [
+          {
+            "end": 65,
+            "entity": "montant",
+            "start": 63,
+            "value": "75"
+          },
+          {
+            "end": 69,
+            "entity": "devise",
+            "start": 66,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Serait-il possible de effectuer un virement s'il vous plait de 75 EUR?"
+      },
+      {
+        "entities": [
+          {
+            "end": 74,
+            "entity": "montant",
+            "start": 71,
+            "value": "160"
+          },
+          {
+            "end": 79,
+            "entity": "devise",
+            "start": 75,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "excusez-moi Serait-il possible de faire un paiement s'il vous plait de 160 euro?"
+      },
+      {
+        "entities": [
+          {
+            "end": 56,
+            "entity": "montant",
+            "start": 49,
+            "value": "6778,35"
+          },
+          {
+            "end": 59,
+            "entity": "devise",
+            "start": 56,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pouvez vous faire un paiement s'il vous plait de 6778,35eur?"
+      },
+      {
+        "entities": [
+          {
+            "end": 83,
+            "entity": "montant",
+            "start": 75,
+            "value": "19066.50"
+          },
+          {
+            "end": 88,
+            "entity": "devise",
+            "start": 84,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Veuillez m'excuser Est ce possible de faire un transfer s'il vous plait de 19066.50 euro?"
+      },
+      {
+        "entities": [
+          {
+            "end": 46,
+            "entity": "montant",
+            "start": 43,
+            "value": "500"
+          },
+          {
+            "end": 50,
+            "entity": "devise",
+            "start": 46,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Est-ce possible d'effectuer un virement de 500euro s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 81,
+            "entity": "montant",
+            "start": 75,
+            "value": "695.48"
+          },
+          {
+            "end": 87,
+            "entity": "devise",
+            "start": 82,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Veuillez m'excuser Est-ce possible de faire un transfer s'il vous plait de 695.48 euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "entity": "montant",
+            "start": 33,
+            "value": "871"
+          },
+          {
+            "end": 40,
+            "entity": "devise",
+            "start": 37,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "je voudrais faire un paiement de 871 EUR?"
+      },
+      {
+        "entities": [
+          {
+            "end": 52,
+            "entity": "montant",
+            "start": 46,
+            "value": "668,99"
+          },
+          {
+            "end": 58,
+            "entity": "devise",
+            "start": 53,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pardon pourriez-vous effectuer un transfer de 668,99 euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "entity": "montant",
+            "start": 39,
+            "value": "080"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "pourriez-vous effectuer un paiement de 080?"
+      },
+      {
+        "entities": [
+          {
+            "end": 57,
+            "entity": "montant",
+            "start": 51,
+            "value": "775,48"
+          },
+          {
+            "end": 62,
+            "entity": "devise",
+            "start": 57,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "bonjour Serait-il possible de faire un virement de 775,48euros s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 50,
+            "entity": "montant",
+            "start": 43,
+            "value": "0389.30"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "hello je souhaiterais faire un paiement de 0389.30?"
+      },
+      {
+        "entities": [
+          {
+            "end": 55,
+            "entity": "montant",
+            "start": 53,
+            "value": "69"
+          },
+          {
+            "end": 59,
+            "entity": "devise",
+            "start": 55,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pouvez-vous effectuer un transfer s'il vous plait de 69euro?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "Serait-il possible d'effectuer un virement s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 56,
+            "entity": "montant",
+            "start": 52,
+            "value": "5636"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "excusez-moi Est-ce possible de faire un paiement de 5636 s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 44,
+            "entity": "montant",
+            "start": 41,
+            "value": "636"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "je souhaiterais effectuer un paiement de 636 s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 39,
+            "entity": "montant",
+            "start": 33,
+            "value": "692,75"
+          },
+          {
+            "end": 45,
+            "entity": "devise",
+            "start": 40,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "je voudrais faire un virement de 692,75 euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "entity": "montant",
+            "start": 37,
+            "value": "023"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "je voudrais effectuer un transfer de 023 s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 46,
+            "entity": "montant",
+            "start": 39,
+            "value": "3431.31"
+          },
+          {
+            "end": 52,
+            "entity": "devise",
+            "start": 47,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "pourriez-vous effectuer un paiement de 3431.31 euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 57,
+            "entity": "montant",
+            "start": 51,
+            "value": "023,30"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "excusez-moi Pourriez vous effectuer un paiement de 023,30 s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "entity": "montant",
+            "start": 43,
+            "value": "02"
+          },
+          {
+            "end": 49,
+            "entity": "devise",
+            "start": 46,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Serait il possible de faire un virement de 02 eur?"
+      },
+      {
+        "entities": [
+          {
+            "end": 69,
+            "entity": "montant",
+            "start": 66,
+            "value": "985"
+          },
+          {
+            "end": 73,
+            "entity": "devise",
+            "start": 70,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Veuillez m'excuser Serait-il possible de effectuer un transfer de 985 eur s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "hello Est-ce possible d'effectuer un paiement s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 59,
+            "entity": "montant",
+            "start": 53,
+            "value": "850,84"
+          },
+          {
+            "end": 62,
+            "entity": "devise",
+            "start": 59,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "je souhaiterais faire un paiement s'il vous plait de 850,84eur?"
+      },
+      {
+        "entities": [
+          {
+            "end": 50,
+            "entity": "montant",
+            "start": 46,
+            "value": "4252"
+          },
+          {
+            "end": 55,
+            "entity": "devise",
+            "start": 50,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Serait-il possible d'effectuer un virement de 4252euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 39,
+            "entity": "montant",
+            "start": 35,
+            "value": "3607"
+          },
+          {
+            "end": 43,
+            "entity": "devise",
+            "start": 40,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "pourriez-vous faire un transfer de 3607 eur?"
+      },
+      {
+        "entities": [
+          {
+            "end": 59,
+            "entity": "montant",
+            "start": 55,
+            "value": "2509"
+          },
+          {
+            "end": 62,
+            "entity": "devise",
+            "start": 59,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "hello je voudrais faire un transfer s'il vous plait de 2509eur?"
+      },
+      {
+        "entities": [
+          {
+            "end": 72,
+            "entity": "montant",
+            "start": 65,
+            "value": "5819,84"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Veuillez m'excuser Serait il possible d'effectuer un transfer de 5819,84 s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "je souhaiterais faire un paiement s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "Excusez moi pourriez-vous effectuer un transfer?"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "entity": "montant",
+            "start": 41,
+            "value": "1291"
+          },
+          {
+            "end": 50,
+            "entity": "devise",
+            "start": 45,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "hello pourriez-vous faire un virement de 1291euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 58,
+            "entity": "montant",
+            "start": 55,
+            "value": "276"
+          },
+          {
+            "end": 63,
+            "entity": "devise",
+            "start": 59,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pourriez vous effectuer un paiement s'il vous plait de 276 euro?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "hello je voudrais faire un transfer s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 43,
+            "entity": "montant",
+            "start": 37,
+            "value": "715,33"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pouvez-vous effectuer un virement de 715,33?"
+      },
+      {
+        "entities": [
+          {
+            "end": 62,
+            "entity": "montant",
+            "start": 56,
+            "value": "114.94"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Veuillez m'excuser Pouvez vous effectuer un virement de 114.94?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "je souhaiterais faire un transfer?"
+      },
+      {
+        "entities": [
+          {
+            "end": 46,
+            "entity": "montant",
+            "start": 44,
+            "value": "76"
+          },
+          {
+            "end": 49,
+            "entity": "devise",
+            "start": 46,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "bonjour j'aimerais effectuer un transfer de 76EUR s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "entity": "montant",
+            "start": 37,
+            "value": "535"
+          },
+          {
+            "end": 43,
+            "entity": "devise",
+            "start": 40,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "je voudrais effectuer un transfer de 535eur?"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "entity": "montant",
+            "start": 43,
+            "value": "25"
+          },
+          {
+            "end": 50,
+            "entity": "devise",
+            "start": 45,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Serait-il possible de faire un transfer de 25euros s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "Pardon Est-ce possible d'effectuer un paiement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 43,
+            "entity": "montant",
+            "start": 37,
+            "value": "419.62"
+          },
+          {
+            "end": 47,
+            "entity": "devise",
+            "start": 44,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "je voudrais effectuer un paiement de 419.62 eur s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "entity": "montant",
+            "start": 37,
+            "value": "948"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pouvez vous effectuer un transfer de 948 s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "pourriez-vous faire un paiement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 49,
+            "entity": "montant",
+            "start": 43,
+            "value": "902,18"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "hello Pouvez vous effectuer un paiement de 902,18?"
+      },
+      {
+        "entities": [
+          {
+            "end": 58,
+            "entity": "montant",
+            "start": 55,
+            "value": "133"
+          },
+          {
+            "end": 62,
+            "entity": "devise",
+            "start": 59,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Veuillez m'excuser j'aimerais effectuer un paiement de 133 EUR?"
+      },
+      {
+        "entities": [
+          {
+            "end": 49,
+            "entity": "montant",
+            "start": 43,
+            "value": "763,27"
+          },
+          {
+            "end": 52,
+            "entity": "devise",
+            "start": 49,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Serait il possible de faire un transfer de 763,27EUR?"
+      },
+      {
+        "entities": [
+          {
+            "end": 86,
+            "entity": "montant",
+            "start": 78,
+            "value": "85006.62"
+          },
+          {
+            "end": 91,
+            "entity": "devise",
+            "start": 87,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Veuillez m'excuser Est-ce possible d'effectuer un paiement s'il vous plait de 85006.62 euro?"
+      },
+      {
+        "entities": [
+          {
+            "end": 78,
+            "entity": "montant",
+            "start": 76,
+            "value": "50"
+          },
+          {
+            "end": 81,
+            "entity": "devise",
+            "start": 78,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "madame, monsieur Est-ce possible d'effectuer un virement s'il vous plait de 50EUR?"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "entity": "montant",
+            "start": 37,
+            "value": "65610,02"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "je voudrais effectuer un virement de 65610,02?"
+      },
+      {
+        "entities": [
+          {
+            "end": 62,
+            "entity": "montant",
+            "start": 55,
+            "value": "8790.32"
+          },
+          {
+            "end": 66,
+            "entity": "devise",
+            "start": 63,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Excusez moi Serait-il possible de faire un virement de 8790.32 EUR s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 37,
+            "entity": "montant",
+            "start": 33,
+            "value": "2346"
+          },
+          {
+            "end": 40,
+            "entity": "devise",
+            "start": 37,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pouvez-vous faire un transfer de 2346EUR?"
+      },
+      {
+        "entities": [
+          {
+            "end": 59,
+            "entity": "montant",
+            "start": 56,
+            "value": "696"
+          },
+          {
+            "end": 64,
+            "entity": "devise",
+            "start": 59,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "madame, monsieur pourriez-vous effectuer un transfer de 696euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "entity": "montant",
+            "start": 37,
+            "value": "95600"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pouvez vous effectuer un transfer de 95600 s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 52,
+            "entity": "montant",
+            "start": 45,
+            "value": "5982,19"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "bonjour je voudrais effectuer un transfer de 5982,19?"
+      },
+      {
+        "entities": [
+          {
+            "end": 41,
+            "entity": "montant",
+            "start": 37,
+            "value": "5577"
+          },
+          {
+            "end": 46,
+            "entity": "devise",
+            "start": 42,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pouvez-vous effectuer un paiement de 5577 euro s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 39,
+            "entity": "montant",
+            "start": 32,
+            "value": "3638.65"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "j'aimerais faire un transfer de 3638.65?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "je souhaiterais effectuer un transfer?"
+      },
+      {
+        "entities": [
+          {
+            "end": 79,
+            "entity": "montant",
+            "start": 72,
+            "value": "1704,63"
+          },
+          {
+            "end": 84,
+            "entity": "devise",
+            "start": 79,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "madame, monsieur Pourriez vous effectuer un transfer s'il vous plait de 1704,63euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "entity": "montant",
+            "start": 37,
+            "value": "217"
+          },
+          {
+            "end": 43,
+            "entity": "devise",
+            "start": 40,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "je voudrais effectuer un transfer de 217eur s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "bonjour je souhaiterais effectuer un transfer s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "Excusez moi Serait il possible d'effectuer un transfer s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 43,
+            "entity": "montant",
+            "start": 40,
+            "value": "568"
+          },
+          {
+            "end": 49,
+            "entity": "devise",
+            "start": 44,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pardon Pouvez vous faire un transfer de 568 euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 44,
+            "entity": "montant",
+            "start": 40,
+            "value": "9525"
+          },
+          {
+            "end": 47,
+            "entity": "devise",
+            "start": 44,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Est-ce possible de faire un paiement de 9525EUR s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "bonjour Serait-il possible de faire un transfer?"
+      },
+      {
+        "entities": [
+          {
+            "end": 62,
+            "entity": "montant",
+            "start": 55,
+            "value": "5711,42"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Excusez moi Serait-il possible de faire un paiement de 5711,42?"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "entity": "montant",
+            "start": 36,
+            "value": "2224"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "j'aimerais effectuer un transfer de 2224?"
+      },
+      {
+        "entities": [
+          {
+            "end": 51,
+            "entity": "montant",
+            "start": 47,
+            "value": "1304"
+          },
+          {
+            "end": 57,
+            "entity": "devise",
+            "start": 52,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Serait-il possible de effectuer un paiement de 1304 euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 60,
+            "entity": "montant",
+            "start": 57,
+            "value": "846"
+          },
+          {
+            "end": 64,
+            "entity": "devise",
+            "start": 60,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "bonjour Pouvez vous faire un paiement s'il vous plait de 846euro?"
+      },
+      {
+        "entities": [
+          {
+            "end": 61,
+            "entity": "montant",
+            "start": 58,
+            "value": "409"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "madame, monsieur je souhaiterais effectuer un transfer de 409?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "Pouvez-vous faire un virement s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "entity": "montant",
+            "start": 43,
+            "value": "09"
+          },
+          {
+            "end": 48,
+            "entity": "devise",
+            "start": 45,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Est-ce possible d'effectuer un transfer de 09EUR?"
+      },
+      {
+        "entities": [
+          {
+            "end": 53,
+            "entity": "montant",
+            "start": 49,
+            "value": "3632"
+          },
+          {
+            "end": 57,
+            "entity": "devise",
+            "start": 54,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pouvez-vous faire un virement s'il vous plait de 3632 eur?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "je souhaiterais effectuer un virement s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 63,
+            "entity": "montant",
+            "start": 60,
+            "value": "287"
+          },
+          {
+            "end": 69,
+            "entity": "devise",
+            "start": 64,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "pardon je voudrais effectuer un transfer s'il vous plait de 287 euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "entity": "montant",
+            "start": 37,
+            "value": "90.33"
+          },
+          {
+            "end": 46,
+            "entity": "devise",
+            "start": 43,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "je souhaiterais faire un paiement de 90.33 eur?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "Pardon je voudrais effectuer un transfer s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 48,
+            "entity": "montant",
+            "start": 43,
+            "value": "16.83"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Serait il possible de faire un virement de 16.83 s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "madame, monsieur je souhaiterais effectuer un virement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 73,
+            "entity": "montant",
+            "start": 69,
+            "value": "9860"
+          },
+          {
+            "end": 78,
+            "entity": "devise",
+            "start": 74,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pardon Serait-il possible d'effectuer un virement s'il vous plait de 9860 euro?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "Pardon je voudrais effectuer un transfer?"
+      },
+      {
+        "entities": [
+          {
+            "end": 57,
+            "entity": "montant",
+            "start": 51,
+            "value": "263.15"
+          },
+          {
+            "end": 62,
+            "entity": "devise",
+            "start": 57,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Bonjour Serait il possible de faire un virement de 263.15euros s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 58,
+            "entity": "montant",
+            "start": 54,
+            "value": "2131"
+          },
+          {
+            "end": 62,
+            "entity": "devise",
+            "start": 58,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "madame, monsieur je souhaiterais faire un paiement de 2131euro s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 52,
+            "entity": "montant",
+            "start": 49,
+            "value": "977"
+          },
+          {
+            "end": 56,
+            "entity": "devise",
+            "start": 52,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Bonjour je souhaiterais effectuer un virement de 977euro?"
+      },
+      {
+        "entities": [
+          {
+            "end": 49,
+            "entity": "montant",
+            "start": 44,
+            "value": "31473"
+          },
+          {
+            "end": 54,
+            "entity": "devise",
+            "start": 50,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "pardon je souhaiterais faire un virement de 31473 euro s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 38,
+            "entity": "montant",
+            "start": 33,
+            "value": "71122"
+          },
+          {
+            "end": 43,
+            "entity": "devise",
+            "start": 39,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pouvez vous faire un virement de 71122 euro?"
+      },
+      {
+        "entities": [
+          {
+            "end": 44,
+            "entity": "montant",
+            "start": 37,
+            "value": "8837.50"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "je voudrais effectuer un virement de 8837.50?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "excusez-moi Pouvez vous effectuer un paiement s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 51,
+            "entity": "montant",
+            "start": 48,
+            "value": "619"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "bonjour Est-ce possible de faire un transfer de 619?"
+      },
+      {
+        "entities": [
+          {
+            "end": 61,
+            "entity": "montant",
+            "start": 59,
+            "value": "65"
+          },
+          {
+            "end": 65,
+            "entity": "devise",
+            "start": 62,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Excusez moi Serait-il possible de effectuer un paiement de 65 eur?"
+      },
+      {
+        "entities": [
+          {
+            "end": 46,
+            "entity": "montant",
+            "start": 40,
+            "value": "640.77"
+          },
+          {
+            "end": 51,
+            "entity": "devise",
+            "start": 46,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Est ce possible de faire un transfer de 640.77euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 49,
+            "entity": "montant",
+            "start": 43,
+            "value": "938,05"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Serait il possible de faire un paiement de 938,05?"
+      },
+      {
+        "entities": [
+          {
+            "end": 48,
+            "entity": "montant",
+            "start": 43,
+            "value": "05,00"
+          },
+          {
+            "end": 52,
+            "entity": "devise",
+            "start": 49,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Serait il possible de faire un virement de 05,00 eur?"
+      },
+      {
+        "entities": [
+          {
+            "end": 46,
+            "entity": "montant",
+            "start": 40,
+            "value": "533,79"
+          },
+          {
+            "end": 51,
+            "entity": "devise",
+            "start": 47,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Est-ce possible de faire un virement de 533,79 euro?"
+      },
+      {
+        "entities": [
+          {
+            "end": 73,
+            "entity": "montant",
+            "start": 70,
+            "value": "894"
+          },
+          {
+            "end": 16,
+            "entity": "devise",
+            "start": 13,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "madame, monsieur je souhaiterais faire un paiement s'il vous plait de 894eur?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "Est ce possible d'effectuer un virement s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "pourriez-vous effectuer un paiement s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 49,
+            "entity": "montant",
+            "start": 42,
+            "value": "8621,17"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Pardon Pourriez vous faire un paiement de 8621,17 s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 51,
+            "entity": "montant",
+            "start": 46,
+            "value": "28,63"
+          },
+          {
+            "end": 55,
+            "entity": "devise",
+            "start": 52,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "pardon pourriez-vous effectuer un virement de 28,63 EUR?"
+      },
+      {
+        "entities": [
+          {
+            "end": 54,
+            "entity": "montant",
+            "start": 51,
+            "value": "257"
+          },
+          {
+            "end": 57,
+            "entity": "devise",
+            "start": 54,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Bonjour Est ce possible d'effectuer un paiement de 257eur s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 62,
+            "entity": "montant",
+            "start": 55,
+            "value": "6962,32"
+          },
+          {
+            "end": 67,
+            "entity": "devise",
+            "start": 63,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Veuillez m'excuser j'aimerais effectuer un paiement de 6962,32 euro s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 61,
+            "entity": "montant",
+            "start": 56,
+            "value": "45384"
+          },
+          {
+            "end": 66,
+            "entity": "devise",
+            "start": 62,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Est-ce possible de faire un virement s'il vous plait de 45384 euro?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "Serait-il possible d'effectuer un transfer s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "bonjour Pourriez vous effectuer un virement s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "Est ce possible de faire un transfer?"
+      },
+      {
+        "entities": [
+          {
+            "end": 56,
+            "entity": "montant",
+            "start": 51,
+            "value": "37564"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "excusez-moi Pourriez vous effectuer un virement de 37564 s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 46,
+            "entity": "montant",
+            "start": 43,
+            "value": "811"
+          },
+          {
+            "end": 52,
+            "entity": "devise",
+            "start": 47,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Est ce possible d'effectuer un paiement de 811 euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 68,
+            "entity": "montant",
+            "start": 62,
+            "value": "829.70"
+          },
+          {
+            "end": 71,
+            "entity": "devise",
+            "start": 68,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "hello Est-ce possible de faire un paiement s'il vous plait de 829.70EUR?"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "entity": "montant",
+            "start": 36,
+            "value": "002.11"
+          },
+          {
+            "end": 46,
+            "entity": "devise",
+            "start": 43,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "j'aimerais effectuer un virement de 002.11 EUR s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 65,
+            "entity": "montant",
+            "start": 63,
+            "value": "01"
+          },
+          {
+            "end": 68,
+            "entity": "devise",
+            "start": 65,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "bonjour pourriez-vous effectuer un paiement s'il vous plait de 01eur?"
+      },
+      {
+        "entities": [
+          {
+            "end": 48,
+            "entity": "montant",
+            "start": 46,
+            "value": "50"
+          },
+          {
+            "end": 53,
+            "entity": "devise",
+            "start": 48,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "Serait il possible d'effectuer un virement de 50euros?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "Pouvez vous effectuer un virement s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "entity": "montant",
+            "start": 32,
+            "value": "80199,54"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "j'aimerais faire un virement de 80199,54 s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_virement",
+        "text": "bonjour Serait-il possible d'effectuer un paiement s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 43,
+            "entity": "montant",
+            "start": 41,
+            "value": "42"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "je souhaiterais effectuer un paiement de 42?"
+      },
+      {
+        "entities": [
+          {
+            "end": 56,
+            "entity": "montant",
+            "start": 51,
+            "value": "83769"
+          },
+          {
+            "end": 60,
+            "entity": "devise",
+            "start": 57,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "excusez-moi Pourriez vous effectuer un virement de 83769 eur?"
+      },
+      {
+        "entities": [
+          {
+            "end": 55,
+            "entity": "montant",
+            "start": 51,
+            "value": "5954"
+          },
+          {
+            "end": 59,
+            "entity": "devise",
+            "start": 56,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_virement",
+        "text": "pourriez-vous faire un paiement s'il vous plait de 5954 eur?"
+      },
+      {
+        "entities": [
+          {
+            "end": 58,
+            "entity": "achat",
+            "start": 47,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais faire un credit afin d'acheter une voiture?"
+      },
+      {
+        "entities": [
+          {
+            "end": 60,
+            "entity": "montant-credit",
+            "start": 54,
+            "value": "83,200"
+          },
+          {
+            "end": 65,
+            "entity": "devise",
+            "start": 61,
+            "value": "euro"
+          },
+          {
+            "end": 91,
+            "entity": "achat",
+            "start": 81,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "madame, monsieur je voudrais souscrire a un credit de 83,200 euro afin d'acheter une maison s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "hello je voudrais obtenir un credit s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "entity": "montant-credit",
+            "start": 32,
+            "value": "4900"
+          },
+          {
+            "end": 40,
+            "entity": "devise",
+            "start": 37,
+            "value": "eur"
+          },
+          {
+            "end": 70,
+            "entity": "achat",
+            "start": 56,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais obtenir un credit de 4900 eur afin d'acheter un appartement s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 73,
+            "entity": "achat",
+            "start": 62,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "pardon j'aimerais emprunter de l'argent dans le but d'acheter une voiture?"
+      },
+      {
+        "entities": [
+          {
+            "end": 62,
+            "entity": "achat",
+            "start": 51,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "hello j'aimerais souscrire a un pret pour financer une voiture?"
+      },
+      {
+        "entities": [
+          {
+            "end": 71,
+            "entity": "achat",
+            "start": 61,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Excusez moi je souhaiterais obtenir un credit afin d'acheter une maison?"
+      },
+      {
+        "entities": [
+          {
+            "end": 80,
+            "entity": "achat",
+            "start": 66,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "bonjour je voudrais emprunter de l'argent dans le but de financer un appartement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 57,
+            "entity": "achat",
+            "start": 46,
+            "value": "une voiture"
+          },
+          {
+            "end": 65,
+            "entity": "montant-credit",
+            "start": 61,
+            "value": "6700"
+          },
+          {
+            "end": 69,
+            "entity": "devise",
+            "start": 66,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "hello j'aimerais faire un credit pour acheter une voiture de 6700 EUR?"
+      },
+      {
+        "entities": [
+          {
+            "end": 72,
+            "entity": "achat",
+            "start": 62,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "madame, monsieur je voudrais obtenir un pret afin de financer une maison?"
+      },
+      {
+        "entities": [
+          {
+            "end": 37,
+            "entity": "montant-credit",
+            "start": 30,
+            "value": "409 300"
+          },
+          {
+            "end": 41,
+            "entity": "devise",
+            "start": 38,
+            "value": "EUR"
+          },
+          {
+            "end": 73,
+            "entity": "achat",
+            "start": 59,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais faire un credit de 409 300 EUR afin de financer un appartement?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "je souhaiterais souscrire a un credit?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "hello j'aimerais faire un credit s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 72,
+            "entity": "achat",
+            "start": 62,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Bonjour je souhaiterais obtenir un pret dans le but d'acheter une maison s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 62,
+            "entity": "achat",
+            "start": 52,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "hello je souhaiterais obtenir un pret pour financer une maison s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 38,
+            "entity": "montant-credit",
+            "start": 34,
+            "value": "2200"
+          },
+          {
+            "end": 44,
+            "entity": "devise",
+            "start": 39,
+            "value": "euros"
+          },
+          {
+            "end": 68,
+            "entity": "achat",
+            "start": 58,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais souscrire a un pret de 2200 euros pour acheter une maison s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 57,
+            "entity": "achat",
+            "start": 47,
+            "value": "une maison"
+          },
+          {
+            "end": 84,
+            "entity": "montant-credit",
+            "start": 77,
+            "value": "698 200"
+          },
+          {
+            "end": 90,
+            "entity": "devise",
+            "start": 85,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "hello je voudrais obtenir un pret pour acheter une maison s'il vous plait de 698 200 euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 84,
+            "entity": "achat",
+            "start": 70,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Excusez moi je voudrais emprunter de l'argent dans le but de financer un appartement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 77,
+            "entity": "achat",
+            "start": 63,
+            "value": "un appartement"
+          },
+          {
+            "end": 102,
+            "entity": "montant-credit",
+            "start": 97,
+            "value": "7 500"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "excusez-moi je voudrais souscrire a un credit afin de financer un appartement s'il vous plait de 7 500?"
+      },
+      {
+        "entities": [
+          {
+            "end": 58,
+            "entity": "achat",
+            "start": 48,
+            "value": "une maison"
+          },
+          {
+            "end": 83,
+            "entity": "montant-credit",
+            "start": 78,
+            "value": "3 000"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je voudrais souscrire a un credit pour financer une maison s'il vous plait de 3 000?"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "entity": "montant-credit",
+            "start": 39,
+            "value": "96 100"
+          },
+          {
+            "end": 49,
+            "entity": "devise",
+            "start": 46,
+            "value": "eur"
+          },
+          {
+            "end": 85,
+            "entity": "achat",
+            "start": 74,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais souscrire a un pret de 96 100 eur dans le but de financer une voiture s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "madame, monsieur je voudrais emprunter de l'argent?"
+      },
+      {
+        "entities": [
+          {
+            "end": 64,
+            "entity": "achat",
+            "start": 54,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je voudrais obtenir un credit dans le but de financer une maison?"
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "entity": "montant-credit",
+            "start": 31,
+            "value": "45100"
+          },
+          {
+            "end": 41,
+            "entity": "devise",
+            "start": 37,
+            "value": "euro"
+          },
+          {
+            "end": 76,
+            "entity": "achat",
+            "start": 66,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je voudrais obtenir un pret de 45100 euro dans le but de financer une maison?"
+      },
+      {
+        "entities": [
+          {
+            "end": 62,
+            "entity": "achat",
+            "start": 51,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je voudrais emprunter de l'argent afin de financer une voiture?"
+      },
+      {
+        "entities": [
+          {
+            "end": 84,
+            "entity": "achat",
+            "start": 73,
+            "value": "une voiture"
+          },
+          {
+            "end": 110,
+            "entity": "montant-credit",
+            "start": 104,
+            "value": "67.200"
+          },
+          {
+            "end": 114,
+            "entity": "devise",
+            "start": 110,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Veuillez m'excuser je souhaiterais faire un credit dans le but d'acheter une voiture s'il vous plait de 67.200euro?"
+      },
+      {
+        "entities": [
+          {
+            "end": 63,
+            "entity": "achat",
+            "start": 49,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais obtenir un pret dans le but d'acheter un appartement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 65,
+            "entity": "achat",
+            "start": 55,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais souscrire a un credit dans le but d'acheter une maison?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "je souhaiterais emprunter de l'argent?"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "entity": "montant-credit",
+            "start": 36,
+            "value": "5400"
+          },
+          {
+            "end": 44,
+            "entity": "devise",
+            "start": 41,
+            "value": "eur"
+          },
+          {
+            "end": 70,
+            "entity": "achat",
+            "start": 60,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais emprunter de l'argent de 5400 eur afin d'acheter une maison s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 37,
+            "entity": "montant-credit",
+            "start": 33,
+            "value": "2400"
+          },
+          {
+            "end": 43,
+            "entity": "devise",
+            "start": 38,
+            "value": "euros"
+          },
+          {
+            "end": 68,
+            "entity": "achat",
+            "start": 58,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je voudrais obtenir un credit de 2400 euros pour financer une maison?"
+      },
+      {
+        "entities": [
+          {
+            "end": 70,
+            "entity": "achat",
+            "start": 60,
+            "value": "une maison"
+          },
+          {
+            "end": 80,
+            "entity": "montant-credit",
+            "start": 74,
+            "value": "84 600"
+          },
+          {
+            "end": 85,
+            "entity": "devise",
+            "start": 81,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "madame, monsieur je voudrais faire un credit afin d'acheter une maison de 84 600 euro?"
+      },
+      {
+        "entities": [
+          {
+            "end": 66,
+            "entity": "achat",
+            "start": 52,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais emprunter de l'argent pour financer un appartement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 73,
+            "entity": "achat",
+            "start": 59,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "madame, monsieur je voudrais obtenir un pret pour financer un appartement s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "hello je voudrais obtenir un pret?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "Excusez moi je voudrais obtenir un pret?"
+      },
+      {
+        "entities": [
+          {
+            "end": 70,
+            "entity": "achat",
+            "start": 56,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je voudrais emprunter de l'argent dans le but d'acheter un appartement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 64,
+            "entity": "achat",
+            "start": 50,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "bonjour je voudrais faire un credit pour financer un appartement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "entity": "montant-credit",
+            "start": 30,
+            "value": "999700"
+          },
+          {
+            "end": 42,
+            "entity": "devise",
+            "start": 37,
+            "value": "euros"
+          },
+          {
+            "end": 72,
+            "entity": "achat",
+            "start": 58,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais faire un credit de 999700 euros afin d'acheter un appartement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 81,
+            "entity": "achat",
+            "start": 70,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "excusez-moi je souhaiterais obtenir un credit dans le but de financer une voiture?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "je voudrais souscrire a un pret?"
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "entity": "montant-credit",
+            "start": 32,
+            "value": "5000"
+          },
+          {
+            "end": 41,
+            "entity": "devise",
+            "start": 37,
+            "value": "euro"
+          },
+          {
+            "end": 71,
+            "entity": "achat",
+            "start": 57,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais obtenir un credit de 5000 euro afin d'acheter un appartement?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "je souhaiterais emprunter de l'argent s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 47,
+            "entity": "montant-credit",
+            "start": 42,
+            "value": "3 900"
+          },
+          {
+            "end": 51,
+            "entity": "devise",
+            "start": 48,
+            "value": "eur"
+          },
+          {
+            "end": 85,
+            "entity": "achat",
+            "start": 74,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Pardon je voudrais souscrire a un pret de 3 900 eur dans le but d'acheter une voiture?"
+      },
+      {
+        "entities": [
+          {
+            "end": 58,
+            "entity": "achat",
+            "start": 47,
+            "value": "une voiture"
+          },
+          {
+            "end": 82,
+            "entity": "montant-credit",
+            "start": 78,
+            "value": "1600"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais obtenir un pret afin d'acheter une voiture s'il vous plait de 1600?"
+      },
+      {
+        "entities": [
+          {
+            "end": 70,
+            "entity": "achat",
+            "start": 60,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "hello je souhaiterais obtenir un pret dans le but d'acheter une maison?"
+      },
+      {
+        "entities": [
+          {
+            "end": 56,
+            "entity": "achat",
+            "start": 45,
+            "value": "une voiture"
+          },
+          {
+            "end": 66,
+            "entity": "montant-credit",
+            "start": 60,
+            "value": "41,000"
+          },
+          {
+            "end": 70,
+            "entity": "devise",
+            "start": 67,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais faire un credit pour acheter une voiture de 41,000 eur?"
+      },
+      {
+        "entities": [
+          {
+            "end": 54,
+            "entity": "achat",
+            "start": 44,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais obtenir un pret afin de financer une maison?"
+      },
+      {
+        "entities": [
+          {
+            "end": 73,
+            "entity": "achat",
+            "start": 62,
+            "value": "une voiture"
+          },
+          {
+            "end": 99,
+            "entity": "montant-credit",
+            "start": 93,
+            "value": "73 200"
+          },
+          {
+            "end": 104,
+            "entity": "devise",
+            "start": 100,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "madame, monsieur je voudrais obtenir un credit afin d'acheter une voiture s'il vous plait de 73 200 euro?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "je voudrais emprunter de l'argent?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "j'aimerais obtenir un credit s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 48,
+            "entity": "montant-credit",
+            "start": 42,
+            "value": "72 200"
+          },
+          {
+            "end": 54,
+            "entity": "devise",
+            "start": 49,
+            "value": "euros"
+          },
+          {
+            "end": 80,
+            "entity": "achat",
+            "start": 69,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Pardon je souhaiterais obtenir un pret de 72 200 euros pour financer une voiture s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "excusez-moi je voudrais obtenir un credit s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "j'aimerais souscrire a un credit?"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "entity": "montant-credit",
+            "start": 35,
+            "value": "9.000"
+          },
+          {
+            "end": 45,
+            "entity": "devise",
+            "start": 41,
+            "value": "euro"
+          },
+          {
+            "end": 74,
+            "entity": "achat",
+            "start": 63,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais faire un credit de 9.000 euro afin de financer une voiture?"
+      },
+      {
+        "entities": [
+          {
+            "end": 70,
+            "entity": "achat",
+            "start": 60,
+            "value": "une maison"
+          },
+          {
+            "end": 80,
+            "entity": "montant-credit",
+            "start": 74,
+            "value": "71 400"
+          },
+          {
+            "end": 85,
+            "entity": "devise",
+            "start": 80,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais souscrire a un credit dans le but d'acheter une maison de 71 400euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 77,
+            "entity": "achat",
+            "start": 63,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Excusez moi j'aimerais obtenir un pret dans le but de financer un appartement s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "je souhaiterais faire un credit s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "entity": "montant-credit",
+            "start": 37,
+            "value": "9 100"
+          },
+          {
+            "end": 47,
+            "entity": "devise",
+            "start": 43,
+            "value": "euro"
+          },
+          {
+            "end": 81,
+            "entity": "achat",
+            "start": 70,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais obtenir un credit de 9 100 euro dans le but d'acheter une voiture s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "entity": "montant-credit",
+            "start": 31,
+            "value": "27900"
+          },
+          {
+            "end": 40,
+            "entity": "devise",
+            "start": 37,
+            "value": "eur"
+          },
+          {
+            "end": 64,
+            "entity": "achat",
+            "start": 54,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je voudrais obtenir un pret de 27900 eur pour acheter une maison s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 68,
+            "entity": "achat",
+            "start": 54,
+            "value": "un appartement"
+          },
+          {
+            "end": 78,
+            "entity": "montant-credit",
+            "start": 72,
+            "value": "96.200"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "excusez-moi j'aimerais obtenir un credit pour acheter un appartement de 96.200?"
+      },
+      {
+        "entities": [
+          {
+            "end": 76,
+            "entity": "achat",
+            "start": 65,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "madame, monsieur j'aimerais souscrire a un pret afin de financer une voiture s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 63,
+            "entity": "achat",
+            "start": 49,
+            "value": "un appartement"
+          },
+          {
+            "end": 72,
+            "entity": "montant-credit",
+            "start": 67,
+            "value": "9,800"
+          },
+          {
+            "end": 76,
+            "entity": "devise",
+            "start": 73,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais obtenir un credit afin d'acheter un appartement de 9,800 eur?"
+      },
+      {
+        "entities": [
+          {
+            "end": 71,
+            "entity": "achat",
+            "start": 61,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "bonjour je souhaiterais souscrire a un pret afin de financer une maison s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 74,
+            "entity": "achat",
+            "start": 64,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "hello je voudrais souscrire a un credit dans le but de financer une maison s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 72,
+            "entity": "achat",
+            "start": 61,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Excusez moi je voudrais souscrire a un credit afin d'acheter une voiture s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 54,
+            "entity": "achat",
+            "start": 44,
+            "value": "une maison"
+          },
+          {
+            "end": 64,
+            "entity": "montant-credit",
+            "start": 58,
+            "value": "34 900"
+          },
+          {
+            "end": 70,
+            "entity": "devise",
+            "start": 65,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais souscrire a un pret pour acheter une maison de 34 900 euros?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "j'aimerais faire un credit?"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "entity": "montant-credit",
+            "start": 36,
+            "value": "855100"
+          },
+          {
+            "end": 47,
+            "entity": "devise",
+            "start": 43,
+            "value": "euro"
+          },
+          {
+            "end": 83,
+            "entity": "achat",
+            "start": 72,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais souscrire a un credit de 855100 euro dans le but de financer une voiture s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 66,
+            "entity": "achat",
+            "start": 56,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je voudrais souscrire a un pret dans le but de financer une maison?"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "entity": "montant-credit",
+            "start": 41,
+            "value": "7800"
+          },
+          {
+            "end": 51,
+            "entity": "devise",
+            "start": 46,
+            "value": "euros"
+          },
+          {
+            "end": 80,
+            "entity": "achat",
+            "start": 66,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais souscrire a un credit de 7800 euros pour financer un appartement?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "je voudrais obtenir un credit s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 53,
+            "entity": "montant-credit",
+            "start": 47,
+            "value": "61 500"
+          },
+          {
+            "end": 57,
+            "entity": "devise",
+            "start": 54,
+            "value": "eur"
+          },
+          {
+            "end": 93,
+            "entity": "achat",
+            "start": 82,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "excusez-moi je souhaiterais obtenir un pret de 61 500 eur dans le but de financer une voiture s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 52,
+            "entity": "montant-credit",
+            "start": 46,
+            "value": "650300"
+          },
+          {
+            "end": 56,
+            "entity": "devise",
+            "start": 53,
+            "value": "EUR"
+          },
+          {
+            "end": 80,
+            "entity": "achat",
+            "start": 70,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Excusez moi j'aimerais souscrire a un pret de 650300 EUR pour acheter une maison?"
+      },
+      {
+        "entities": [
+          {
+            "end": 39,
+            "entity": "montant-credit",
+            "start": 34,
+            "value": "5 100"
+          },
+          {
+            "end": 44,
+            "entity": "devise",
+            "start": 40,
+            "value": "euro"
+          },
+          {
+            "end": 68,
+            "entity": "achat",
+            "start": 58,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais souscrire a un pret de 5 100 euro pour acheter une maison s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 79,
+            "entity": "achat",
+            "start": 69,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Veuillez m'excuser je souhaiterais souscrire a un pret pour financer une maison s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 49,
+            "entity": "montant-credit",
+            "start": 42,
+            "value": "280.600"
+          },
+          {
+            "end": 53,
+            "entity": "devise",
+            "start": 50,
+            "value": "eur"
+          },
+          {
+            "end": 79,
+            "entity": "achat",
+            "start": 68,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "pardon je voudrais souscrire a un pret de 280.600 eur pour financer une voiture s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 68,
+            "entity": "achat",
+            "start": 54,
+            "value": "un appartement"
+          },
+          {
+            "end": 92,
+            "entity": "montant-credit",
+            "start": 88,
+            "value": "3700"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais obtenir un pret dans le but d'acheter un appartement s'il vous plait de 3700?"
+      },
+      {
+        "entities": [
+          {
+            "end": 59,
+            "entity": "achat",
+            "start": 45,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je voudrais obtenir un credit afin d'acheter un appartement s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 72,
+            "entity": "achat",
+            "start": 62,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "excusez-moi je voudrais obtenir un pret dans le but d'acheter une maison?"
+      },
+      {
+        "entities": [
+          {
+            "end": 51,
+            "entity": "achat",
+            "start": 41,
+            "value": "une maison"
+          },
+          {
+            "end": 61,
+            "entity": "montant-credit",
+            "start": 55,
+            "value": "20.000"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais faire un credit pour financer une maison de 20.000?"
+      },
+      {
+        "entities": [
+          {
+            "end": 77,
+            "entity": "achat",
+            "start": 63,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "madame, monsieur je souhaiterais obtenir un pret pour financer un appartement?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "madame, monsieur j'aimerais souscrire a un credit?"
+      },
+      {
+        "entities": [
+          {
+            "end": 71,
+            "entity": "achat",
+            "start": 61,
+            "value": "une maison"
+          },
+          {
+            "end": 96,
+            "entity": "montant-credit",
+            "start": 91,
+            "value": "9 600"
+          },
+          {
+            "end": 100,
+            "entity": "devise",
+            "start": 96,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "pardon je souhaiterais obtenir un pret dans le but d'acheter une maison s'il vous plait de 9 600euro?"
+      },
+      {
+        "entities": [
+          {
+            "end": 60,
+            "entity": "achat",
+            "start": 49,
+            "value": "une voiture"
+          },
+          {
+            "end": 85,
+            "entity": "montant-credit",
+            "start": 80,
+            "value": "9 000"
+          },
+          {
+            "end": 91,
+            "entity": "devise",
+            "start": 86,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "hello je voudrais obtenir un credit pour acheter une voiture s'il vous plait de 9 000 euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 66,
+            "entity": "achat",
+            "start": 52,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Pardon je voudrais faire un credit afin de financer un appartement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 50,
+            "entity": "montant-credit",
+            "start": 44,
+            "value": "71 400"
+          },
+          {
+            "end": 56,
+            "entity": "devise",
+            "start": 51,
+            "value": "euros"
+          },
+          {
+            "end": 86,
+            "entity": "achat",
+            "start": 72,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "pardon je voudrais souscrire a un credit de 71 400 euros afin d'acheter un appartement s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 73,
+            "entity": "achat",
+            "start": 62,
+            "value": "une voiture"
+          },
+          {
+            "end": 81,
+            "entity": "montant-credit",
+            "start": 77,
+            "value": "2600"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Excusez moi je souhaiterais souscrire a un pret pour financer une voiture de 2600?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "madame, monsieur j'aimerais faire un credit s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 54,
+            "entity": "achat",
+            "start": 43,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais obtenir un credit pour financer une voiture s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 59,
+            "entity": "achat",
+            "start": 48,
+            "value": "une voiture"
+          },
+          {
+            "end": 86,
+            "entity": "montant-credit",
+            "start": 79,
+            "value": "378 600"
+          },
+          {
+            "end": 91,
+            "entity": "devise",
+            "start": 86,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais emprunter de l'argent afin d'acheter une voiture s'il vous plait de 378 600euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 46,
+            "entity": "montant-credit",
+            "start": 41,
+            "value": "8 000"
+          },
+          {
+            "end": 50,
+            "entity": "devise",
+            "start": 47,
+            "value": "EUR"
+          },
+          {
+            "end": 87,
+            "entity": "achat",
+            "start": 73,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais emprunter de l'argent de 8 000 EUR dans le but d'acheter un appartement s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 82,
+            "entity": "achat",
+            "start": 68,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Veuillez m'excuser j'aimerais faire un credit dans le but d'acheter un appartement?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "pardon j'aimerais obtenir un pret?"
+      },
+      {
+        "entities": [
+          {
+            "end": 64,
+            "entity": "achat",
+            "start": 50,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je voudrais obtenir un pret dans le but d'acheter un appartement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 47,
+            "entity": "montant-credit",
+            "start": 42,
+            "value": "7 900"
+          },
+          {
+            "end": 52,
+            "entity": "devise",
+            "start": 48,
+            "value": "euro"
+          },
+          {
+            "end": 84,
+            "entity": "achat",
+            "start": 70,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Pardon je souhaiterais faire un credit de 7 900 euro afin de financer un appartement?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "madame, monsieur j'aimerais obtenir un credit s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 62,
+            "entity": "achat",
+            "start": 51,
+            "value": "une voiture"
+          },
+          {
+            "end": 86,
+            "entity": "montant-credit",
+            "start": 82,
+            "value": "5900"
+          },
+          {
+            "end": 90,
+            "entity": "devise",
+            "start": 87,
+            "value": "EUR"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais emprunter de l'argent pour acheter une voiture s'il vous plait de 5900 EUR?"
+      },
+      {
+        "entities": [
+          {
+            "end": 57,
+            "entity": "achat",
+            "start": 47,
+            "value": "une maison"
+          },
+          {
+            "end": 81,
+            "entity": "montant-credit",
+            "start": 77,
+            "value": "1600"
+          },
+          {
+            "end": 87,
+            "entity": "devise",
+            "start": 82,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je voudrais emprunter de l'argent pour acheter une maison s'il vous plait de 1600 euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "entity": "montant-credit",
+            "start": 37,
+            "value": "7.000"
+          },
+          {
+            "end": 46,
+            "entity": "devise",
+            "start": 43,
+            "value": "eur"
+          },
+          {
+            "end": 81,
+            "entity": "achat",
+            "start": 71,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je voudrais souscrire a un credit de 7.000 eur dans le but de financer une maison s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 41,
+            "entity": "montant-credit",
+            "start": 35,
+            "value": "99 000"
+          },
+          {
+            "end": 47,
+            "entity": "devise",
+            "start": 42,
+            "value": "euros"
+          },
+          {
+            "end": 77,
+            "entity": "achat",
+            "start": 63,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais obtenir un pret de 99 000 euros afin d'acheter un appartement s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 53,
+            "entity": "montant-credit",
+            "start": 49,
+            "value": "9100"
+          },
+          {
+            "end": 58,
+            "entity": "devise",
+            "start": 54,
+            "value": "euro"
+          },
+          {
+            "end": 93,
+            "entity": "achat",
+            "start": 83,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Excusez moi je voudrais souscrire a un credit de 9100 euro dans le but de financer une maison s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 61,
+            "entity": "achat",
+            "start": 47,
+            "value": "un appartement"
+          },
+          {
+            "end": 71,
+            "entity": "montant-credit",
+            "start": 65,
+            "value": "53 000"
+          },
+          {
+            "end": 76,
+            "entity": "devise",
+            "start": 72,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je voudrais souscrire a un credit pour acheter un appartement de 53 000 euro?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "j'aimerais emprunter de l'argent?"
+      },
+      {
+        "entities": [
+          {
+            "end": 57,
+            "entity": "montant-credit",
+            "start": 52,
+            "value": "5,900"
+          },
+          {
+            "end": 63,
+            "entity": "devise",
+            "start": 58,
+            "value": "euros"
+          },
+          {
+            "end": 93,
+            "entity": "achat",
+            "start": 79,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "madame, monsieur je souhaiterais faire un credit de 5,900 euros afin d'acheter un appartement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 57,
+            "entity": "achat",
+            "start": 46,
+            "value": "une voiture"
+          },
+          {
+            "end": 82,
+            "entity": "montant-credit",
+            "start": 77,
+            "value": "6 000"
+          },
+          {
+            "end": 86,
+            "entity": "devise",
+            "start": 82,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais souscrire a un credit pour acheter une voiture s'il vous plait de 6 000euro?"
+      },
+      {
+        "entities": [
+          {
+            "end": 39,
+            "entity": "montant-credit",
+            "start": 33,
+            "value": "17 300"
+          },
+          {
+            "end": 43,
+            "entity": "devise",
+            "start": 40,
+            "value": "EUR"
+          },
+          {
+            "end": 68,
+            "entity": "achat",
+            "start": 57,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je voudrais obtenir un credit de 17 300 EUR pour acheter une voiture?"
+      },
+      {
+        "entities": [
+          {
+            "end": 62,
+            "entity": "achat",
+            "start": 51,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "bonjour je voudrais obtenir un credit pour acheter une voiture?"
+      },
+      {
+        "entities": [
+          {
+            "end": 43,
+            "entity": "montant-credit",
+            "start": 38,
+            "value": "3.400"
+          },
+          {
+            "end": 48,
+            "entity": "devise",
+            "start": 44,
+            "value": "euro"
+          },
+          {
+            "end": 73,
+            "entity": "achat",
+            "start": 62,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "bonjour j'aimerais obtenir un pret de 3.400 euro pour acheter une voiture?"
+      },
+      {
+        "entities": [
+          {
+            "end": 66,
+            "entity": "achat",
+            "start": 56,
+            "value": "une maison"
+          },
+          {
+            "end": 75,
+            "entity": "montant-credit",
+            "start": 70,
+            "value": "6 700"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais faire un credit dans le but de financer une maison de 6 700?"
+      },
+      {
+        "entities": [
+          {
+            "end": 61,
+            "entity": "achat",
+            "start": 50,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais souscrire a un credit afin de financer une voiture?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "pardon je souhaiterais souscrire a un credit?"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "entity": "montant-credit",
+            "start": 33,
+            "value": "173 000"
+          },
+          {
+            "end": 46,
+            "entity": "devise",
+            "start": 41,
+            "value": "euros"
+          },
+          {
+            "end": 76,
+            "entity": "achat",
+            "start": 62,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je voudrais obtenir un credit de 173 000 euros afin d'acheter un appartement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 55,
+            "entity": "achat",
+            "start": 44,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais obtenir un credit afin d'acheter une voiture?"
+      },
+      {
+        "entities": [
+          {
+            "end": 44,
+            "entity": "montant-credit",
+            "start": 39,
+            "value": "8 200"
+          },
+          {
+            "end": 49,
+            "entity": "devise",
+            "start": 45,
+            "value": "euro"
+          },
+          {
+            "end": 74,
+            "entity": "achat",
+            "start": 63,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "bonjour je voudrais obtenir un pret de 8 200 euro pour acheter une voiture s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 72,
+            "entity": "achat",
+            "start": 62,
+            "value": "une maison"
+          },
+          {
+            "end": 99,
+            "entity": "montant-credit",
+            "start": 92,
+            "value": "292 800"
+          },
+          {
+            "end": 103,
+            "entity": "devise",
+            "start": 100,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais emprunter de l'argent dans le but de financer une maison s'il vous plait de 292 800 eur?"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "entity": "montant-credit",
+            "start": 38,
+            "value": "1600"
+          },
+          {
+            "end": 47,
+            "entity": "devise",
+            "start": 43,
+            "value": "euro"
+          },
+          {
+            "end": 76,
+            "entity": "achat",
+            "start": 62,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Pardon je voudrais faire un credit de 1600 euro pour financer un appartement?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "bonjour j'aimerais obtenir un pret?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "j'aimerais souscrire a un credit s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 72,
+            "entity": "achat",
+            "start": 58,
+            "value": "un appartement"
+          },
+          {
+            "end": 99,
+            "entity": "montant-credit",
+            "start": 92,
+            "value": "814,400"
+          },
+          {
+            "end": 105,
+            "entity": "devise",
+            "start": 100,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Bonjour j'aimerais emprunter de l'argent afin de financer un appartement s'il vous plait de 814,400 euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 82,
+            "entity": "achat",
+            "start": 68,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "madame, monsieur j'aimerais obtenir un pret dans le but de financer un appartement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 37,
+            "entity": "montant-credit",
+            "start": 31,
+            "value": "81 300"
+          },
+          {
+            "end": 43,
+            "entity": "devise",
+            "start": 38,
+            "value": "euros"
+          },
+          {
+            "end": 70,
+            "entity": "achat",
+            "start": 59,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je voudrais faire un credit de 81 300 euros afin d'acheter une voiture?"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "entity": "montant-credit",
+            "start": 36,
+            "value": "65 200"
+          },
+          {
+            "end": 46,
+            "entity": "devise",
+            "start": 43,
+            "value": "EUR"
+          },
+          {
+            "end": 73,
+            "entity": "achat",
+            "start": 62,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais souscrire a un credit de 65 200 EUR afin d'acheter une voiture s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "Bonjour je souhaiterais obtenir un pret s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "hello j'aimerais souscrire a un credit?"
+      },
+      {
+        "entities": [
+          {
+            "end": 62,
+            "entity": "achat",
+            "start": 48,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "pardon j'aimerais obtenir un pret pour financer un appartement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 51,
+            "entity": "montant-credit",
+            "start": 47,
+            "value": "7100"
+          },
+          {
+            "end": 55,
+            "entity": "devise",
+            "start": 52,
+            "value": "eur"
+          },
+          {
+            "end": 84,
+            "entity": "achat",
+            "start": 70,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "hello je souhaiterais souscrire a un credit de 7100 eur pour financer un appartement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 55,
+            "entity": "achat",
+            "start": 45,
+            "value": "une maison"
+          },
+          {
+            "end": 64,
+            "entity": "montant-credit",
+            "start": 59,
+            "value": "7.600"
+          },
+          {
+            "end": 68,
+            "entity": "devise",
+            "start": 65,
+            "value": "eur"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je voudrais faire un credit afin de financer une maison de 7.600 eur?"
+      },
+      {
+        "entities": [
+          {
+            "end": 66,
+            "entity": "achat",
+            "start": 55,
+            "value": "une voiture"
+          },
+          {
+            "end": 91,
+            "entity": "montant-credit",
+            "start": 86,
+            "value": "2 000"
+          },
+          {
+            "end": 96,
+            "entity": "devise",
+            "start": 91,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "excusez-moi je voudrais faire un credit afin d'acheter une voiture s'il vous plait de 2 000euros?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "madame, monsieur je souhaiterais souscrire a un pret s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "entity": "montant-credit",
+            "start": 36,
+            "value": "9400"
+          },
+          {
+            "end": 44,
+            "entity": "devise",
+            "start": 41,
+            "value": "EUR"
+          },
+          {
+            "end": 70,
+            "entity": "achat",
+            "start": 60,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais souscrire a un credit de 9400 EUR afin d'acheter une maison?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "je voudrais obtenir un pret?"
+      },
+      {
+        "entities": [
+          {
+            "end": 62,
+            "entity": "achat",
+            "start": 52,
+            "value": "une maison"
+          },
+          {
+            "end": 72,
+            "entity": "montant-credit",
+            "start": 66,
+            "value": "11 200"
+          },
+          {
+            "end": 78,
+            "entity": "devise",
+            "start": 73,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "hello j'aimerais souscrire a un credit pour acheter une maison de 11 200 euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 63,
+            "entity": "montant-credit",
+            "start": 58,
+            "value": "28300"
+          },
+          {
+            "end": 68,
+            "entity": "devise",
+            "start": 64,
+            "value": "euro"
+          },
+          {
+            "end": 96,
+            "entity": "achat",
+            "start": 82,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "madame, monsieur je souhaiterais emprunter de l'argent de 28300 euro pour acheter un appartement s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 55,
+            "entity": "achat",
+            "start": 41,
+            "value": "un appartement"
+          },
+          {
+            "end": 79,
+            "entity": "montant-credit",
+            "start": 75,
+            "value": "1100"
+          },
+          {
+            "end": 84,
+            "entity": "devise",
+            "start": 80,
+            "value": "euro"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais faire un credit pour financer un appartement s'il vous plait de 1100 euro?"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "entity": "montant-credit",
+            "start": 36,
+            "value": "75,100"
+          },
+          {
+            "end": 47,
+            "entity": "devise",
+            "start": 43,
+            "value": "euro"
+          },
+          {
+            "end": 75,
+            "entity": "achat",
+            "start": 61,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais souscrire a un credit de 75,100 euro pour acheter un appartement s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "entity": "montant-credit",
+            "start": 30,
+            "value": "44 300"
+          },
+          {
+            "end": 41,
+            "entity": "devise",
+            "start": 37,
+            "value": "euro"
+          },
+          {
+            "end": 70,
+            "entity": "achat",
+            "start": 59,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais obtenir un pret de 44 300 euro afin de financer une voiture?"
+      },
+      {
+        "entities": [
+          {
+            "end": 46,
+            "entity": "montant-credit",
+            "start": 41,
+            "value": "1 500"
+          },
+          {
+            "end": 50,
+            "entity": "devise",
+            "start": 47,
+            "value": "EUR"
+          },
+          {
+            "end": 79,
+            "entity": "achat",
+            "start": 68,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais emprunter de l'argent de 1 500 EUR afin de financer une voiture s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "je voudrais souscrire a un pret s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 66,
+            "entity": "achat",
+            "start": 55,
+            "value": "une voiture"
+          },
+          {
+            "end": 92,
+            "entity": "montant-credit",
+            "start": 86,
+            "value": "88 900"
+          },
+          {
+            "end": 98,
+            "entity": "devise",
+            "start": 93,
+            "value": "euros"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Bonjour je voudrais obtenir un credit afin de financer une voiture s'il vous plait de 88 900 euros?"
+      },
+      {
+        "entities": [
+          {
+            "end": 47,
+            "entity": "montant-credit",
+            "start": 41,
+            "value": "49 100"
+          },
+          {
+            "end": 51,
+            "entity": "devise",
+            "start": 48,
+            "value": "eur"
+          },
+          {
+            "end": 79,
+            "entity": "achat",
+            "start": 65,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais souscrire a un credit de 49 100 eur pour acheter un appartement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 60,
+            "entity": "montant-credit",
+            "start": 53,
+            "value": "231 800"
+          },
+          {
+            "end": 65,
+            "entity": "devise",
+            "start": 61,
+            "value": "euro"
+          },
+          {
+            "end": 99,
+            "entity": "achat",
+            "start": 88,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "excusez-moi je souhaiterais emprunter de l'argent de 231 800 euro dans le but d'acheter une voiture s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "je voudrais obtenir un credit?"
+      },
+      {
+        "entities": [
+          {
+            "end": 50,
+            "entity": "montant-credit",
+            "start": 45,
+            "value": "7,700"
+          },
+          {
+            "end": 56,
+            "entity": "devise",
+            "start": 51,
+            "value": "euros"
+          },
+          {
+            "end": 95,
+            "entity": "achat",
+            "start": 81,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Bonjour je voudrais emprunter de l'argent de 7,700 euros dans le but de financer un appartement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 47,
+            "entity": "montant-credit",
+            "start": 43,
+            "value": "9300"
+          },
+          {
+            "end": 51,
+            "entity": "devise",
+            "start": 48,
+            "value": "eur"
+          },
+          {
+            "end": 81,
+            "entity": "achat",
+            "start": 67,
+            "value": "un appartement"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Bonjour je souhaiterais obtenir un pret de 9300 eur afin d'acheter un appartement?"
+      },
+      {
+        "entities": [
+          {
+            "end": 62,
+            "entity": "achat",
+            "start": 51,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "je souhaiterais souscrire a un pret afin d'acheter une voiture s'il vous plait?"
+      },
+      {
+        "entities": [
+          {
+            "end": 74,
+            "entity": "achat",
+            "start": 64,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "hello je souhaiterais souscrire a un pret dans le but d'acheter une maison?"
+      },
+      {
+        "entities": [
+          {
+            "end": 81,
+            "entity": "achat",
+            "start": 71,
+            "value": "une maison"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "Veuillez m'excuser je voudrais obtenir un pret dans le but de financer une maison?"
+      },
+      {
+        "entities": [
+          {
+            "end": 53,
+            "entity": "achat",
+            "start": 42,
+            "value": "une voiture"
+          }
+        ],
+        "intent": "demande_credit",
+        "text": "j'aimerais faire un credit afin d'acheter une voiture s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "demande_credit",
+        "text": "hello j'aimerais souscrire a un credit s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "Veuillez m'excuser quel montant maximal puis-je emprunter s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "Excusez moi quel montant maximal puis-je obtenir?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quelle est ma capcite d'emprunt maximal?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "hello quelle est ma capcite d'emprunt maximale s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "Veuillez m'excuser quelle est ma capcite d'emprunt max?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "madame, monsieur quel montant maximal puis-je emprunter s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "Pardon quelle est ma capcite d'emprunt maximal?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "Veuillez m'excuser quelle est ma capcite d'emprunt maximum?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quelle est ma capcite d'emprunt maximale s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quel montant maximum puis-je avoir?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "bonjour quel montant maximal puis-je emprunter?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quelle est ma capcite d'emprunt max s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quelle est ma capcite d'emprunt maximum?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quel montant maximale puis-je emprunter?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "madame, monsieur quel montant maximum puis-je obtenir s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quel montant maximum puis-je emprunter s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "bonjour quel montant max puis-je avoir?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quelle est ma capcite d'emprunt maximum s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "excusez-moi quel montant maximale puis-je obtenir s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "hello quel montant maximal puis-je obtenir?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quelle est ma capcite d'emprunt max?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "Veuillez m'excuser quelle est ma capcite d'emprunt maximal?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "excusez-moi quel montant maximum puis-je avoir s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quel montant maximum puis-je emprunter?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quel montant maximum puis-je avoir s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quelle est ma capcite d'emprunt maximale?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "bonjour quelle est ma capcite d'emprunt maximale?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quel montant maximal puis-je emprunter s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "Veuillez m'excuser quelle est ma capcite d'emprunt maximal s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "bonjour quel montant maximum puis-je avoir s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quel montant maximal puis-je obtenir s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quelle est ma capcite d'emprunt maximal s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "pardon quelle est ma capcite d'emprunt maximal s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "Veuillez m'excuser quel montant maximum puis-je emprunter s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "Bonjour quelle est ma capcite d'emprunt maximale?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "Pardon quelle est ma capcite d'emprunt max s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "Excusez moi quel montant max puis-je obtenir?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "Bonjour quel montant maximale puis-je emprunter s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quel montant maximal puis-je emprunter?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "pardon quelle est ma capcite d'emprunt max s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "Bonjour quel montant max puis-je avoir s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "madame, monsieur quelle est ma capcite d'emprunt maximum?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "madame, monsieur quel montant maximale puis-je emprunter s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "Bonjour quel montant max puis-je emprunter?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "Pardon quelle est ma capcite d'emprunt maximal s'il vous plait?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quel montant maximale puis-je obtenir?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "Pardon quel montant max puis-je emprunter?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "bonjour quelle est ma capcite d'emprunt maximum?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "quel montant max puis-je emprunter?"
+      },
+      {
+        "entities": [],
+        "intent": "capacite_emprunt",
+        "text": "excusez-moi quel montant maximale puis-je obtenir?"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "synonyms": [
+          "une",
+          "une"
+        ],
+        "value": "une"
+      },
+      {
+        "synonyms": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "value": ""
+      },
+      {
+        "synonyms": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "value": "1"
+      },
+      {
+        "synonyms": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "value": "2"
+      },
+      {
+        "synonyms": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ],
+        "value": "3"
+      },
+      {
+        "synonyms": [
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4"
+        ],
+        "value": "4"
+      },
+      {
+        "synonyms": [
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5"
+        ],
+        "value": "5"
+      },
+      {
+        "synonyms": [
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6"
+        ],
+        "value": "6"
+      },
+      {
+        "synonyms": [
+          "7",
+          "7",
+          "7",
+          "7",
+          "7",
+          "7",
+          "7",
+          "7",
+          "7",
+          "7",
+          "7",
+          "7",
+          "7",
+          "7",
+          "7",
+          "7"
+        ],
+        "value": "7"
+      },
+      {
+        "synonyms": [
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8"
+        ],
+        "value": "8"
+      },
+      {
+        "synonyms": [
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9"
+        ],
+        "value": "9"
+      },
+      {
+        "synonyms": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "value": "0"
+      },
+      {
+        "synonyms": [
+          " 1",
+          " 1"
+        ],
+        "value": " 1"
+      },
+      {
+        "synonyms": [
+          " 2",
+          " 2"
+        ],
+        "value": " 2"
+      },
+      {
+        "synonyms": [
+          " 3",
+          " 3"
+        ],
+        "value": " 3"
+      },
+      {
+        "synonyms": [
+          " 4",
+          " 4"
+        ],
+        "value": " 4"
+      },
+      {
+        "synonyms": [
+          " 5",
+          " 5"
+        ],
+        "value": " 5"
+      },
+      {
+        "synonyms": [
+          " 6",
+          " 6"
+        ],
+        "value": " 6"
+      },
+      {
+        "synonyms": [
+          " 7",
+          " 7"
+        ],
+        "value": " 7"
+      },
+      {
+        "synonyms": [
+          " 8",
+          " 8"
+        ],
+        "value": " 8"
+      },
+      {
+        "synonyms": [
+          " 9",
+          " 9"
+        ],
+        "value": " 9"
+      },
+      {
+        "synonyms": [
+          " 0",
+          " 0"
+        ],
+        "value": " 0"
+      },
+      {
+        "synonyms": [
+          "00",
+          "00",
+          "00",
+          "00"
+        ],
+        "value": "00"
+      },
+      {
+        "synonyms": [
+          ".",
+          "."
+        ],
+        "value": "."
+      },
+      {
+        "synonyms": [
+          ",",
+          ","
+        ],
+        "value": ","
+      }
+    ],
+    "regex_features": []
+  }
+}

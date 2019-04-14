@@ -1,0 +1,168 @@
+slots:
+  PRIX:
+    type: float
+  UNIT:
+    type: text
+  TYPE-ACHAT:
+    type: text
+  CB:
+    type: text
+  DESTINATAIRE:
+    type: text
+  SOLDE:
+    type: text
+  CONFIRMATION_VIREMENT:
+    type: text
+  MOTIF:
+    type: text
+
+intents:
+ - demande_de_credit
+ - Perte_de_carte_bancaire
+ - opposition
+ - affirmation
+ - negation
+ - salutation
+ - demande_de_virement
+ - merci
+ - aurevoir
+ - solde
+ - None
+
+entities:
+ - TYPE-ACHAT
+ - CB
+ - UNIT
+ - PRIX
+ - DESTINATAIRE
+ - LOCATION
+ - ARGENT
+ - SOLDE
+ - MOTIF
+
+templates:
+  utter_rep_salutation:
+    - "Bonjour"
+    - "Bonjour à vous"
+    - "Bonjour monsieur"
+  utter_rep_need:
+    - "Comment puis-je vous aider ?"
+    - "Que puis-je faire pour vous ?"
+    - "En quoi puis-je vous être utile ?"
+  utter_ask_type_achat:
+    - "Quel projet avez-vous besoin de financer ?"
+    - "Pour quel objet avez-vous besoin d'un financement de ma part ?"
+    - "Quel bien voulez-vous acheter ?"
+  utter_ask_prix:
+    - "Quelle est la somme que vous souhaitez emprunter ?"
+    - "Combien souhaitez vous emprunter ?"
+    - "Pouvez-vous me preciser la somme dont vous avez besoin ?"
+  utter_ask_opposition:
+    - "Voulez vous faire opposition ?"
+    - "Souhaitez vous faire opposition ?"
+    - "Dois-je faire opposition ?"
+  utter_rep_merci:
+    - "C'est un plaisir, de vous aider"
+    - "Je suis heureux d'avoir pu vous être utile"
+    - "C'est toujours un plaisir de vous aider"
+    - "Mais de rien monsieur"
+  utter_rep_opposition:
+    - "Ok, je fait opposition"
+    - "Je viens de faire opposition"
+  utter_rep_opposition_cb:
+    - "Ok, je fait opposition sur votre {CB}"
+    - "Je viens de faire opposition pour votre {CB}"
+  utter_rep_credit_prix_type:
+    - "Ok, vous souhaitez un pret pour {TYPE-ACHAT} pour un montant de {PRIX} ?"
+    - "Si je résume, vous souhaitez emprunter la somme de {PRIX} pour financer votre projet : {TYPE-ACHAT} ?"
+  utter_rep_credit_prix:
+    - "Si je résume, vous souhaitez emprunter la somme de {PRIX} pour votre projet ?"
+  utter_rep_credit_prix_unit:
+    - "Si je résume, vous souhaitez emprunter la somme de {PRIX} {UNIT} pour votre projet ?"
+    - "Pour le financement de votre projet, vous avez besoin de {PRIX} {UNIT} on est bien d'accord ?"
+  utter_rep_credit_prix_type_unit:
+    - "Pour financer votre projet, vous avez besoin de {PRIX} {UNIT} on est bien d'accord ?"
+    - "Ok, vous souhaitez un pret pour {TYPE-ACHAT} pour un montant de {PRIX} ?"
+    - "Si je résume, vous souhaitez emprunter la somme de {PRIX} pour financer votre projet : {TYPE-ACHAT} ?"
+  utter_rep_final:
+    - "Desirez vous autre chose ?"
+    - "Avez vous besoin d'autre chose ?"
+    - "Avez-vous une autre demander à formuler ?"
+  utter_rep_dontknow:
+    - "Je ne suis pas en mesure de vous aider, je prends le point et le transmet à mon collegue. Il vous recontactera très prochainement."
+    - "Je viens de transmettre votre requête à mon collegue, il prendra contact avec vous"
+  utter_rep_confirmation_credit:
+    - "Votre demander viens d'être accepter, vous venez d'être crédité de {PRIX} {UNIT}."
+    - "Je viens de débloquer les fonds, ils sont immédiatement disponible sur votre compte"
+  utter_ask_montant_virement:
+    - "Quel montant souhaitez vous envoyer ?"
+    - "Pouvez-vous me préciser la somme que vous souhaitez envoyer ?"  
+    - "Une demande de virement ? indiquez moi le montant que vous souhaitez virement"
+  utter_ask_montant_beneficiaire:
+    - "A qui souhaitez-vous envoyer les {PRIX}"
+    - "Le montant de {PRIX] que vous souhaitez envoyer est à destination de quel bénéficiaire ?"
+  utter_ask_montant_beneficiaire_unit:
+    - "A qui souhaitez-vous envoyer les {PRIX} {UNIT}"
+    - "Le montant de {PRIX} {UNIT} que vous souhaitez envoyer est à destination de quel bénéficiaire ?"
+  utter_ask_beneficiare_montant:
+    - "Combien souhaitez-vous envoyer à {DESTINATAIRE} ?"
+    - "Quel est le montant du virement à destination de {DESTINATAIRE} ?"
+  utter_ask_beneficiare:
+    - "Pour qui souhaitez vous faire le virement ?"
+    - "A qui souhaitez vous envoyer l'argent ?"
+  utter_ask_motif:
+    - "Quel le motif de votre virement à {DESTINATAIRE} ?"
+    - "Quel motif souhaitez-vous associer à ce virement de {PRIX} {UNIT} ?"
+  utter_rep_virement:
+    - "Souhaitez vous envoyer {PRIX} à {DESTINATAIRE} ?"
+    - "Confirmez vous un virement de {PRIX} à {DESTINATAIRE} ?"
+  utter_rep_virement_unit:
+    - "Souhaitez vous envoyer {PRIX} {UNIT} à {DESTINATAIRE} ?"
+    - "Confirmez vous un virement de {PRIX} {UNIT} à {DESTINATAIRE} ?"
+  utter_rep_confirmation_virement:
+    - "Je vous confirme le virement de {PRIX} à {DESTINATAIRE}"
+  utter_rep_confirmation_virement_unit:
+    - "Je vous confirme le virement de {PRIX} {UNIT} à {DESTINATAIRE}"
+  utter_rep_solde:
+    - "Votre solde est de {SOLDE}"
+  utter_aurevoir:
+    - "Reviens vite"
+    - "Au revoir et merci"
+    - "Au revoir"
+  utter_confir_vir:
+    - "CONFIRMATION_VIREMENT"
+  utter_default:
+    - "Je ne comprends pas votre demande"
+    - "Pouvez-vous reformuler ?"
+    - "J'ai du mal à vous comprendre"
+
+    
+actions:
+ - utter_rep_salutation
+ - utter_ask_opposition
+ - utter_ask_prix
+ - utter_ask_type_achat
+ - utter_rep_merci
+ - utter_rep_credit_prix_type_unit
+ - utter_rep_credit_prix_type
+ - utter_rep_credit_prix_unit
+ - utter_rep_credit_prix
+ - utter_rep_opposition
+ - utter_rep_opposition_cb
+ - utter_rep_final
+ - utter_rep_need
+ - utter_rep_confirmation_credit
+ - utter_ask_montant_virement
+ - utter_ask_beneficiare_montant
+ - utter_ask_montant_beneficiaire
+ - utter_ask_montant_beneficiaire_unit
+ - utter_ask_beneficiare
+ - utter_rep_virement
+ - utter_rep_virement_unit
+ - utter_rep_confirmation_virement
+ - utter_rep_confirmation_virement_unit
+ - utter_rep_solde
+ - utter_aurevoir
+ - utter_default
+ - action_rep_solde
+ - action_transfert
